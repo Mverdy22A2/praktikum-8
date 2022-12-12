@@ -84,10 +84,8 @@ class DaftarNilai:
         print("\nData berhasil diubah\n")
 # fungsi memanggil class
 
-
-
-nilai = DaftarNilai()
-while True:
+    nilai = DaftarNilai()
+    while True:
     c = input("\nT)ambah,L)ihat,U)bah,H)apus,Q)uit: ")
     if (c.lower() == 't'):
         nilai.tambah()
@@ -101,7 +99,6 @@ while True:
         break
     else:
         print("\nPilih menu yang tersedia\n")
-        
 # menu fungsi
 
 ![image](https://user-images.githubusercontent.com/115523263/207046657-cc099623-06e6-49c5-87f2-4c86ce0124d0.png)
