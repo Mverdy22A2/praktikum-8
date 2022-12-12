@@ -86,19 +86,19 @@ class DaftarNilai:
 
     nilai = DaftarNilai()
     while True:
-    c = input("\nT)ambah,L)ihat,U)bah,H)apus,Q)uit: ")
-    if (c.lower() == 't'):
-        nilai.tambah()
-    elif (c.lower() == 'l'):
-        nilai.tampil()
-    elif (c.lower() == 'h'):
-        nilai.hapus()
-    elif (c.lower() == 'u'):
-        nilai.ubah()
-    elif (c.lower() == 'q'):
-        break
-    else:
-        print("\nPilih menu yang tersedia\n")
+        c = input("\nT)ambah,L)ihat,U)bah,H)apus,Q)uit: ")
+        if (c.lower() == 't'):
+            nilai.tambah()
+        elif (c.lower() == 'l'):
+            nilai.tampil()
+        elif (c.lower() == 'h'):
+            nilai.hapus()
+        elif (c.lower() == 'u'):
+            nilai.ubah()
+        elif (c.lower() == 'q'):
+            break
+        else:
+            print("\nPilih menu yang tersedia\n")
 # menu fungsi
 
 ![image](https://user-images.githubusercontent.com/115523263/207046657-cc099623-06e6-49c5-87f2-4c86ce0124d0.png)
