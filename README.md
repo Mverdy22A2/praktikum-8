@@ -83,6 +83,9 @@ class DaftarNilai:
                 item[5] = akhir
         print("\nData berhasil diubah\n")
 # fungsi memanggil class
+
+
+
 nilai = DaftarNilai()
 while True:
     c = input("\nT)ambah,L)ihat,U)bah,H)apus,Q)uit: ")
@@ -98,23 +101,24 @@ while True:
         break
     else:
         print("\nPilih menu yang tersedia\n")
+        
 # menu fungsi
 
 ![image](https://user-images.githubusercontent.com/115523263/207046657-cc099623-06e6-49c5-87f2-4c86ce0124d0.png)
 
-# tampilan program menu tambah
+# program menu tambah
 
 ![image](https://user-images.githubusercontent.com/115523263/207047308-139e20ef-780a-4d0f-8585-988f1beb4416.png)
 
 - berfungsi untuk menambah kan data
 
-# tampilan program menu tampil
+# program menu tampil
 
 ![image](https://user-images.githubusercontent.com/115523263/207048071-292b20b3-1abf-48e0-9c41-c266f48e0db3.png)
 
 - berfungsi untuk menampilkan data yang sudah di tambahkan, di ubah, atau di hapus
 
-# tampilan program menu tampil
+# program menu ubah
 
 ![image](https://user-images.githubusercontent.com/115523263/207048617-f74ab810-ec8f-4f7f-a523-cb77ca0cdf7b.png)
 
@@ -124,7 +128,7 @@ while True:
 
 ![image](https://user-images.githubusercontent.com/115523263/207048992-d876ea56-80f6-49bf-975a-a463f707adbb.png)
 
-# tampilan program menu hapus
+# program menu hapus
 
 ![image](https://user-images.githubusercontent.com/115523263/207049180-47e13969-6b86-4356-9fd0-5a98b5995572.png)
 
