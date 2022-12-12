@@ -27,6 +27,10 @@ Method ubah() digunakan untuk mengubah nilai mahasiswa berdasarkan nam
 10. keluar dari looping
 11. program selesai
 
+# flowchart
+
+![IMG_20221212_191528](https://user-images.githubusercontent.com/115523263/207053446-78a748a7-8405-4e33-9b23-bc1949bd08b1.jpg)
+
 # membuat class mahasiswa
 class DaftarNilai:
     __listNilai = []
